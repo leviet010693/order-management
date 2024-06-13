@@ -8,7 +8,7 @@ import { Branding__Sider } from 'components/brand';
 
 const { Header: AntHeader, Content, Sider } = Layout;
 
-function Main({ children }) {
+const Layout__Page = ({ children }) => {
   let { pathname } = useLocation();
   pathname = pathname.replace('/', '');
 
@@ -38,6 +38,6 @@ function Main({ children }) {
       </Layout>
     </Layout>
   );
-}
+};
 
-export default Main;
+export default Layout__Page;

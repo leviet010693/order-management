@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "parser": "@babel/eslint-parser",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
+  }
+}
